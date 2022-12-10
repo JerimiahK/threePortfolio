@@ -1,0 +1,20 @@
+{
+  "name": "threepractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "parcel": "^2.8.0",
+    "sass": "^1.56.2",
+    "three": "^0.147.0",
+    "three.proton.js": "^0.2.3"
+  }
+}
