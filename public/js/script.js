@@ -1,8 +1,6 @@
 // Background of the page using ThreeJS
 import * as THREE from "https://unpkg.com/three@0.120.1/build/three.module.js";
 
-init();
-
 function init() {
   //
   const camera = new THREE.PerspectiveCamera(
@@ -94,3 +92,12 @@ function init() {
 
   animate();
 }
+
+init();
+//~~~~~~~~~~~~~~~~ END THREE.JS~~~~~~~~~~~~~~~~~~~~~~~~
+
+const coverPage = document.querySelector("#coverPage");
+
+setTimeout(function () {
+  coverPage.remove();
+}, 3800);

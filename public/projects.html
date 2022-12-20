@@ -13,7 +13,11 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <div id="page">
+    <div id="coverPage">
+        <div class="coverName">Jerimiah Kripakov</div>
+        <div class="coverPortfolio">Portfolio</div>
+    </div>
+    <div id="page">       
         <div id="background">
             <canvas id="canvas"></canvas>
         </div>
@@ -33,20 +37,20 @@
             <nav class="nav">
                 <ol class="navbar">
                     <li id="navbar-item">
-                        <a href="/home" class="homeButton hide">Home</a>
-                    </li>
-                    <li id="navbar-item"">
-                        <a href=" /projects" class="projectsButton">Projects</a>
+                        <a id="homeButton" href="/home" class="homeButton">Home</a>
                     </li>
                     <li id="navbar-item">
-                        <a href="/info" class="infoButton">Info</a>
+                        <span id="dot" class="dot">&#8226;</span>
+                    </li>
+                    <li id="navbar-item">
+                        <a id="infoButton" href="/info" class="infoButton">Info</a>
                     </li>
                 </ol>
             </nav>
         </header>
         <main class="content">
             <div class="inner-content">
-                <section class="page hide" id="projects">
+                <section class="page" id="projects">
                     <div class="projects">
                         <a class="project-item" href="https://studybuddiezzz.herokuapp.com/" target="_blank">
                             <div class="project-title">STUDY BUDDY Application</div>
