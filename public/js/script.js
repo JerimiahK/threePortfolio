@@ -100,4 +100,4 @@ const coverPage = document.querySelector("#coverPage");
 
 setTimeout(function () {
   coverPage.remove();
-}, 3800);
+}, 3500);
