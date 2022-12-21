@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 app.get("/", (req, res) =>
-  res.sendFile(path.join(__dirname, "/public/home.html"))
+  res.sendFile(path.join(__dirname, "/public/coverPage.html"))
 );
 
 app.get("/home", (req, res) =>
